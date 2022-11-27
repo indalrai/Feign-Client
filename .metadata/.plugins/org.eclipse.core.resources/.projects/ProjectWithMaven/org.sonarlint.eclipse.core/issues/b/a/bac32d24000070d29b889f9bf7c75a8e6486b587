@@ -1,0 +1,19 @@
+
+a
+java:S3740"/Provide the parametrized type for this generic.(¨·y8ÃúÊ™·0HÔ
+RMAJORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Æç²âÿÿÿÿÿHÇ
+RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ½ñ¼HÈ
+RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(”¦ğõ8‰­Ş™·0Hæ
+RMAJORZ
+CODE_SMELL
+s
+java:S1128
+";Remove this unused import 'com.mysql.cj.xdevapi.Statement'.(Î…¿Šøÿÿÿÿ8‰­Ş™·0Hç
+RMINORZ
+CODE_SMELL

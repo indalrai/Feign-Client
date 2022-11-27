@@ -1,0 +1,37 @@
+
+Š
+java:S1845C"\Rename method "getUsername" to prevent any misunderstanding/clash with method "getUserName".(ú´­÷Hï
+RBLOCKERZ
+CODE_SMELL
+Š
+java:S1845G"\Rename method "setUsername" to prevent any misunderstanding/clash with method "setUserName".(Ÿš¯‡Hñ
+RBLOCKERZ
+CODE_SMELL
+‡
+java:S4144C"[Update this method so that its implementation is not identical to "getUserName" on line 35.(ú´­÷Hó
+RMAJORZ
+CODE_SMELL
+‡
+java:S4144G"[Update this method so that its implementation is not identical to "setUserName" on line 47.(Ÿš¯‡Hõ
+RMAJORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(úôÚ•ùÿÿÿÿH÷
+RMAJORZ
+CODE_SMELL
+j
+java:S1128"9Remove this unused import 'javax.persistence.EmbeddedId'.(Ñ£ù¢üÿÿÿÿHù
+RMINORZ
+CODE_SMELL
+i
+java:S1128	"=Remove this unused import 'javax.persistence.GeneratedValue'.(¤®À‚Hû
+RMINORZ
+CODE_SMELL
+i
+java:S1128
+"=Remove this unused import 'javax.persistence.GenerationType'.(ý÷õ¡Hý
+RMINORZ
+CODE_SMELL
+]
+java:S1128"1Remove this unused import 'javax.persistence.Id'.(þ¹ÞÜHÿ
+RMINORZ
+CODE_SMELL

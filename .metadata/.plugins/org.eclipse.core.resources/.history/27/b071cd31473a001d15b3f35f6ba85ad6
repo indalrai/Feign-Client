@@ -1,0 +1,38 @@
+package com.OneToOne_Mapping;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Answer {
+
+	@Id
+	//@Column(name="answer_Id")
+	private int answerId;
+	
+	public int getAnswerId() {
+		return answerId;
+	}
+
+	public void setAnswerId(int answerId) {
+		this.answerId = answerId;
+	}
+
+	public String getAnswerName() {
+		return answerName;
+	}
+
+	public void setAnswerName(String answerName) {
+		this.answerName = answerName;
+	}
+
+	private String answerName;
+	
+	public Answer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

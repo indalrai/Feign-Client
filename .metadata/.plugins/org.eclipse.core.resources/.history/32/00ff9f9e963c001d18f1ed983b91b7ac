@@ -1,0 +1,28 @@
+package HQLEXAMPLE;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
+
+public class hql_example {
+
+	public static void main(String[] args) {
+		
+		SessionFactory factory = new Configuration().configure().buildSessionFactory();
+		Session s = factory.openSession();
+		//HQL
+		//SYYNTAX:
+		String query="from Student";
+		Query q = s.createQuery(query);
+		
+		//single-(unique)
+		//multiple-List
+		List <Student> list = q.list(); 
+		
+		s.close();
+		factory.close();
+	}
+}

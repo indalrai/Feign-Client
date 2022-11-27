@@ -1,0 +1,26 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(×•œ²8¦ß„þ¶0H¾
+RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÐÚÐÕ8¦ß„þ¶0H¿
+RMAJORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.HÀ
+RMINORZ
+CODE_SMELL
+U
+java:S2189""Correct this loop's end condition.(žÙãËùÿÿÿÿ8¦ß„þ¶0HÁ
+RBLOCKERZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(åÅ¾à8¦ß„þ¶0HÂ
+RMAJORZ
+CODE_SMELL
+j
+java:S2251"9"j" is decremented and will never reach "stop condition".(žÙãËùÿÿÿÿ8¦ß„þ¶0HÃ
+RMAJORZBUG
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8°—–þ¶0HÄ
+RMAJORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¼»Ê÷ûÿÿÿÿHÅ
+RMINORZ
+CODE_SMELL

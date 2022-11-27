@@ -1,0 +1,33 @@
+package com.OneToOne_Mapping;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Answer {
+
+	private int answerId;
+	private String answer;
+	public int getAnswerId() {
+		return answerId;
+	}
+	public void setAnswerId(int answerId) {
+		this.answerId = answerId;
+	}
+	public String getAnswer() {
+		return answer;
+	}
+	public void setAnswer(String anwer) {
+		this.answer = answer;
+	}
+	public Answer(int answerId, String anwer) {
+		super();
+		this.answerId = answerId;
+		this.answer = anwer;
+	}
+	public Answer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

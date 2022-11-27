@@ -1,0 +1,23 @@
+package com.criteria;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+import com.hibernate.UserDetails;
+
+public class CrteriaExample {
+ public static void main(String[] args) {
+	
+	 Session s = new Configuration().configure().buildSessionFactory().openSession();
+	 
+	Criteria c= s.createCriteria(UserDetails.class);
+	
+	List<UserDetails> userDetails=c.list();
+	 
+	 
+	 s.close();
+}
+}

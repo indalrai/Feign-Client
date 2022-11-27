@@ -1,0 +1,22 @@
+package ManyToMany_Mapping;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Project {
+	
+	@Id
+	private int pid;
+	@Column(name="Projects-Name")
+	private String pname;
+	
+	@ManyToMany
+	private List<Emp>emp;
+	
+
+}

@@ -1,0 +1,9 @@
+
+i
+java:S11357"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¦’Õ¦¶0H‹RINFOZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üìË«øÿÿÿÿHŒRMINORZ
+CODE_SMELL
+m
+java:S1128":Remove this unused import 'javax.persistence.CascadeType'.( ì¤Ê8³Æ‡Å·0HÒRMINORZ
+CODE_SMELL

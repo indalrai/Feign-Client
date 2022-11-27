@@ -1,0 +1,33 @@
+package com.hibernate;
+
+import java.util.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class App1 {
+
+	public static void main(String[] args) {
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+		
+		Address1 ad= new Address1();
+		ad.setStreet("street 1");
+		ad.setCity("Delhi");
+		ad.setOpen(true);
+		ad.setAddedDate(new Date());
+		ad.setX(1234.456);
+		
+		
+		
+		Session session = sessionFactory.openSession();
+		session.beginTransaction();
+		session.save(ad);
+		session.getTransaction().commit();
+		session.close();
+		System.out.println("DONE");
+		
+
+	}
+
+}
